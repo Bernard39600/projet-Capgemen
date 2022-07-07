@@ -1,0 +1,224 @@
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'montserrat';
+    font-style: normal;
+    /* font-size: 100%; */
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold';
+    font-style: bold;
+    color: black;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#header {
+
+    text-align: center;
+    background: rgb(251, 227, 143);
+    background: linear-gradient(135deg, rgba(251, 227, 143, 1) 50%, rgba(241, 210, 87, 1) 100%);
+
+}
+
+.contain {
+    margin-top: 40px;
+}
+
+img {
+    height: 500px;
+}
+
+/* section Why Choose us */
+#why {
+    text-align: center;
+    margin: 80px;
+}
+
+#why p,
+#practice p,
+#customers {
+    color: #737373;
+    font-size: 14px;
+}
+
+#why .card {
+    width: 15rem;
+    background-color: #f9f9f9;
+    border: none;
+}
+
+#why img {
+    height: 48px;
+    width: 48px;
+}
+
+/* practice */
+#practice {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 80px 0 80px 0;
+
+}
+
+
+#practice .card {
+    width: 15rem;
+    background-color: #f9f9f9;
+    border: none;
+}
+
+#practice img {
+    width: 230px;
+    height: 138px;
+}
+
+/* customers */
+
+
+#customers {
+    text-align: center;
+    padding: 80px 0 80px 0;
+}
+
+#customers p {
+    margin: 0 50px 50px 50px;
+}
+
+#customers h5 {
+    font-family: 'Montserrat-Bold';
+    font-style: bold;
+    color: black;
+    font-size: 16px;
+}
+
+
+#customers img {
+    width: 310px;
+    height: 440px;
+    object-fit: cover;
+    font-size: 16px;
+
+}
+
+.quick-jump {
+    display: flex;
+    margin: 20px;
+    text-align: left;
+}
+
+#quick-img {
+    margin-right: 10px;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+/* logos */
+.logos {
+    background: #f9f9f9;
+    padding: 30px;
+}
+
+.logos img {
+    width: 150px;
+    height: auto;
+}
+
+/* subscribe */
+#Contact-Us,
+#subscribe {
+
+    display: flex;
+    justify-content: center;
+    background: #f9f9f9;
+
+    text-align: center !important;
+}
+
+
+#subscribe .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    background: rgb(22, 105, 122);
+
+}
+
+/* Get in */
+#get-in {
+    display: flex;
+    justify-content: center;
+    background: #f9f9f9;
+    padding: 60px 0;
+    ;
+
+}
+
+#get-in .card {
+    border: none;
+}
+
+#get-in .card-body {
+    padding: 40px 0;
+}
+
+.gt {
+    background: #f9f9f9;
+}
+
+.card-img-top {
+    width: 72px;
+    height: 72px;
+}
+
+#get-in h5 {
+    padding: 15px;
+}
+
+.position {
+    color: white;
+    background: #252B42;
+}
+
+#get-in .card-link-white {
+    color: white;
+}
+
+#get-in .card-link-black {
+    color: black;
+}
+
+#get-in .blackBtn {
+    background: none;
+    border-color: white;
+}
+
+#Contact-Us {
+    display: flex;
+    justify-content: center;
+    background: #f9f9f9;
+}
+
+#Contact-Us a {
+    color: white;
+}
